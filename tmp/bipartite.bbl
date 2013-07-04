@@ -1,0 +1,160 @@
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Barab{\^a}si {\em et~al.\/}(2002)Barab{\^a}si, Jeong, N{\'e}da,
+  Ravasz, Schubert \& Vicsek}]{barabasi2002evolution}
+Barab{\^a}si, A.L., Jeong, H., N{\'e}da, Z., Ravasz, E., Schubert, A. \&
+  Vicsek, T. (2002). Evolution of the social network of scientific
+  collaborations. {\em Physica A: Statistical Mechanics and its
+  Applications\/}, {\bf 311}, 590--614.
+
+\bibitem[{Bertin-Mahieux {\em et~al.\/}(2011)Bertin-Mahieux, Ellis, Whitman \&
+  Lamere}]{Bertin-Mahieux2011}
+Bertin-Mahieux, T., Ellis, D.P., Whitman, B. \& Lamere, P. (2011). The million
+  song dataset. In {\em {Proceedings of the 12th International Conference on
+  Music Information Retrieval ({ISMIR} 2011)}\/}.
+
+\bibitem[{Blondel {\em et~al.\/}(2008)Blondel, Guillaume, Lambiotte \&
+  Lefebvre}]{blondel2008fast}
+Blondel, V.D., Guillaume, J.L., Lambiotte, R. \& Lefebvre, E. (2008). Fast
+  unfolding of communities in large networks. {\em Journal of Statistical
+  Mechanics: Theory and Experiment\/}, {\bf 2008}, P10008.
+
+\bibitem[{Borgatti \& Everett(1997)}]{borgatti1997network}
+Borgatti, S.P. \& Everett, M.G. (1997). Network analysis of 2-mode data. {\em
+  Social networks\/}, {\bf 19}, 243--269.
+
+\bibitem[{Breese {\em et~al.\/}(1998)Breese, Heckerman \&
+  Kadie}]{breese1998empirical}
+Breese, J.S., Heckerman, D. \& Kadie, C. (1998). Empirical analysis of
+  predictive algorithms for collaborative filtering. In {\em Proceedings of the
+  Fourteenth conference on Uncertainty in artificial intelligence\/}, 43--52,
+  Morgan Kaufmann Publishers Inc.
+
+\bibitem[{Clauset {\em et~al.\/}(2004)Clauset, Newman \&
+  Moore}]{clauset2004finding}
+Clauset, A., Newman, M.E. \& Moore, C. (2004). Finding community structure in
+  very large networks. {\em Physical review E\/}, {\bf 70}, 066111.
+
+\bibitem[{Clauset {\em et~al.\/}(2009)Clauset, Shalizi \&
+  Newman}]{clauset2009power}
+Clauset, A., Shalizi, C.R. \& Newman, M.E. (2009). Power-law distributions in
+  empirical data. {\em SIAM review\/}, {\bf 51}, 661--703.
+
+\bibitem[{Davis {\em et~al.\/}(1941)Davis, Gardner \& Gardner}]{davis1941deep}
+Davis, A., Gardner, B.B. \& Gardner, M.R. (1941). {\em Deep south\/}.
+  University of Chicago Press Chicago.
+
+\bibitem[{Fortunato(2010)}]{fortunato2010community}
+Fortunato, S. (2010). Community detection in graphs. {\em Physics Reports\/},
+  {\bf 486}, 75--174.
+
+\bibitem[{Freeman(2003)}]{freeman2003finding}
+Freeman, L.C. (2003). Finding social groups: A meta-analysis of the southern
+  women data. {\em Dynamic social network modeling and analysis\/}, 39--97.
+
+\bibitem[{Grujic {\em et~al.\/}(2009)Grujic, Mitrovic \&
+  Tadic}]{grujic2009mixing}
+Grujic, J., Mitrovic, M. \& Tadic, B. (2009). Mixing patterns and communities
+  on bipartite graphs on web-based social interactions. In {\em Digital Signal
+  Processing, 2009 16th International Conference on\/}, 1--8, IEEE.
+
+\bibitem[{Guillaume \& Latapy(2004)}]{guillaume2004bipartite}
+Guillaume, J.L. \& Latapy, M. (2004). Bipartite structure of all complex
+  networks. {\em Information processing letters\/}, {\bf 90}, 215--221.
+
+\bibitem[{Huang {\em et~al.\/}(2007)Huang, Zeng \& Chen}]{huang2007analyzing}
+Huang, Z., Zeng, D.D. \& Chen, H. (2007). Analyzing consumer-product graphs:
+  Empirical findings and applications in recommender systems. {\em Management
+  Science\/}, {\bf 53}, 1146--1164.
+
+\bibitem[{Jeong {\em et~al.\/}(2000)Jeong, Tombor, Albert, Oltvai \&
+  Barab{\'a}si}]{jeong2000large}
+Jeong, H., Tombor, B., Albert, R., Oltvai, Z.N. \& Barab{\'a}si, A.L. (2000).
+  The large-scale organization of metabolic networks. {\em Nature\/}, {\bf
+  407}, 651--654.
+
+\bibitem[{Laherrere \& Sornette(1998)}]{laherrere1998stretched}
+Laherrere, J. \& Sornette, D. (1998). Stretched exponential distributions in
+  nature and economy:“fat tails” with characteristic scales. {\em The European
+  Physical Journal B-Condensed Matter and Complex Systems\/}, {\bf 2},
+  525--539.
+
+\bibitem[{Latapy {\em et~al.\/}(2008)Latapy, Magnien \&
+  Vecchio}]{latapy2008basic}
+Latapy, M., Magnien, C. \& Vecchio, N.D. (2008). Basic notions for the analysis
+  of large two-mode networks. {\em Social Networks\/}, {\bf 30}, 31--48.
+
+\bibitem[{Li {\em et~al.\/}(2005)Li, Fan, Chen, Gao, Di \& Wu}]{li2005weighted}
+Li, M., Fan, Y., Chen, J., Gao, L., Di, Z. \& Wu, J. (2005). Weighted networks
+  of scientific communication: the measurement and topological role of weight.
+  {\em Physica A: Statistical Mechanics and its Applications\/}, {\bf 350},
+  643--656.
+
+\bibitem[{Li {\em et~al.\/}(2007)Li, Wu, Wang, Zhou, Di \&
+  Fan}]{li2007evolving}
+Li, M., Wu, J., Wang, D., Zhou, T., Di, Z. \& Fan, Y. (2007). Evolving model of
+  weighted networks inspired by scientific collaboration networks. {\em Physica
+  A: Statistical Mechanics and its Applications\/}, {\bf 375}, 355--364.
+
+\bibitem[{Liljeros {\em et~al.\/}(2001)Liljeros, Edling, Amaral, Stanley \&
+  {\AA}berg}]{liljeros2001web}
+Liljeros, F., Edling, C.R., Amaral, L.A.N., Stanley, H.E. \& {\AA}berg, Y.
+  (2001). The web of human sexual contacts. {\em Nature\/}, {\bf 411},
+  907--908.
+
+\bibitem[{Lind {\em et~al.\/}(2005)Lind, Gonzalez \& Herrmann}]{lind2005cycles}
+Lind, P.G., Gonzalez, M.C. \& Herrmann, H.J. (2005). Cycles and clustering in
+  bipartite networks. {\em Physical review E\/}, {\bf 72}, 056127.
+
+\bibitem[{Newman(2001{\natexlab{a}})}]{newman2001scientific1}
+Newman, M.E. (2001{\natexlab{a}}). Scientific collaboration networks. i.
+  network construction and fundamental results. {\em Physical review E\/}, {\bf
+  64}, 016131.
+
+\bibitem[{Newman(2001{\natexlab{b}})}]{newman2001scientific2}
+Newman, M.E. (2001{\natexlab{b}}). Scientific collaboration networks. ii.
+  shortest paths, weighted networks, and centrality. {\em Physical review E\/},
+  {\bf 64}, 016132.
+
+\bibitem[{Newman \& Girvan(2004)}]{newman2004finding}
+Newman, M.E. \& Girvan, M. (2004). Finding and evaluating community structure
+  in networks. {\em Physical review E\/}, {\bf 69}, 026113.
+
+\bibitem[{Newman {\em et~al.\/}(2001)Newman, Strogatz \&
+  Watts}]{newman2001random}
+Newman, M.E., Strogatz, S.H. \& Watts, D.J. (2001). Random graphs with
+  arbitrary degree distributions and their applications. {\em Physical Review
+  E\/}, {\bf 64}, 026118.
+
+\bibitem[{Opsahl(2011)}]{opsahl2011triadic}
+Opsahl, T. (2011). Triadic closure in two-mode networks: Redefining the global
+  and local clustering coefficients. {\em Social Networks\/}.
+
+\bibitem[{Raghavan {\em et~al.\/}(2007)Raghavan, Albert \&
+  Kumara}]{raghavan2007near}
+Raghavan, U.N., Albert, R. \& Kumara, S. (2007). Near linear time algorithm to
+  detect community structures in large-scale networks. {\em Physical Review
+  E\/}, {\bf 76}, 036106.
+
+\bibitem[{Ramasco \& Morris(2006)}]{ramasco2006social}
+Ramasco, J.J. \& Morris, S.A. (2006). Social inertia in collaboration networks.
+  {\em Physical Review E\/}, {\bf 73}, 016122.
+
+\bibitem[{Salton \& Buckley(1988)}]{salton1988term}
+Salton, G. \& Buckley, C. (1988). Term-weighting approaches in automatic text
+  retrieval. {\em Information processing \& management\/}, {\bf 24}, 513--523.
+
+\bibitem[{Shang {\em et~al.\/}(2010)Shang, Lü, Zhang \&
+  Zhou}]{shang10empirical}
+Shang, M.S., Lü, L., Zhang, Y.C. \& Zhou, T. (2010). Empirical analysis of
+  web-based user-object bipartite networks. {\em EPL (Europhysics Letters)\/},
+  {\bf 90}, 48006.
+
+\bibitem[{Zhang {\em et~al.\/}(2008)Zhang, Wang, Li, Li, Di \&
+  Fan}]{zhang2008clustering}
+Zhang, P., Wang, J., Li, X., Li, M., Di, Z. \& Fan, Y. (2008). Clustering
+  coefficient and community structure of bipartite networks. {\em Physica A:
+  Statistical Mechanics and its Applications\/}, {\bf 387}, 6869--6875.
+
+\end{thebibliography}

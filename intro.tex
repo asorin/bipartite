@@ -1,0 +1,57 @@
+% !TEX root = bipartite.tex
+
+\section{Introduction}
+
+Social networks are becoming increasingly popular for modeling interactions
+between nodes or individuals of the same kind (one-mode or unipartite) and there
+is a large amount of work recently focusing on various aspects of social
+networks. However some real-world networks have a more heterogeneous structure
+where two kinds of individuals (or items) interact with each other with ties
+formed between individuals of different types only. Bipartite networks
+(two-mode) are a natural fit for these sort of systems as they are represented
+as a graph with two disjoint sets of nodes and edges exists only between nodes
+from different sets. There are many examples of complex networks that have a
+bipartite structure, such as actor-movie networks, where actors are linked to
+movies they played in \citep{guillaume2004bipartite}, authoring or collaboration
+networks, where authors are linked to the paper they published
+\citep{newman2001scientific1}, human sexual networks, consisting of men an women
+\citep{liljeros2001web} and the metabolic networks between chemical reactions
+and metabolites \citep{jeong2000large}. Even though there is a lot more focus on
+social networks in the scientific community, research on bipartite or two-mode
+networks has moved forward in the last couple of years. 
+
+User-object networks are emerging as a special class of bipartite networks with
+certain characteristics that are different than the relatively well studied
+author-paper and actor-movie networks. Users interact continuously with objects,
+based on their own selection and preference. This representation is appropriate
+for modeling activities in web and e-commerce environments. For example the
+social tagging, music listening activity or movie watching can be modelled as an
+user-object network. In certain cases these networks can be also referred as
+consumer-product networks where an edge links a consumer with a product when the
+former buys or views that particular product \citep{huang2007analyzing}. 
+
+One particular characteristic of user-object networks is the presence of a
+significant number of highly popular objects reflected by the heavy tail
+distribution of the objects degree \citep{shang10empirical}. The heavy tail is
+believed to be formed through preferential attachment
+\citep{barabasi2002evolution}, where users tend to interact more with objects
+that are already popular. These popular objects have a significant effect on the
+properties of both bipartite and projected networks, causing significant link
+inflation in the latter. On the other side they are a poor indicator of users
+interests, while unpopular objects are the best at describing common tastes
+shared by users \citep{shang10empirical}. In this paper we are proposing a
+method of (re)assigning weights to edges in a bipartite user-object network
+based on the popular \emph{tf-idf} method that will reduce the effect of popular
+objects while taking into account user's preferences. We validate the new method
+by showing that both density and community structure of the projected users
+network is improved compared to both the original projected network and the
+network generated partially in a random fashion.
+
+The remainder of the paper is structured as follows. Next section reviews the
+state of the art literature on bipartite and user-object networks. In section 3
+we provide a comprehensive analysis of user-object networks and their properties
+and challenges, including density and clustering. Section 4 proposes the new
+weighting scheme based on \emph{tf-idf}. In section 5 we validate the proposed
+approach by comparing densities and modularities of the projected users network
+to the random case. Finally, we conclude the paper in section 6 by summarizing
+our findings and pointing out future research directions.

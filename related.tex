@@ -1,0 +1,77 @@
+% !TEX root = bipartite.tex
+
+\section{Related work}
+
+One popular approach when analyzing two-mode networks is to transform them into
+one-mode networks through a method known as projection and then use the methods
+available for social networks. \citet{newman2001scientific1} and
+\citet{barabasi2002evolution} study scientific collaboration networks between
+authors of scientific papers by projecting the authoring network (author-paper)
+to an unweighted co-authoring network (author-author). A tie is defined between
+two authors if they have at least one collaboration together, without taking
+into account the frequency of collaboration between the authors. In order to
+avoid the loss of information through unweighted projection, some authors
+proposed a weighting method. \citet{ramasco2006social} and
+\citet{li2007evolving} use a simple mechanism to assign weights, based on the
+number of times those authors collaborated. Other papers propose a different
+approach to weighting. In \citet{newman2001scientific2} the contribution of a
+co-authored article to the weight of an edge between two authors depends on the
+degree of the article. This is based on the assumption that a low degree article
+defines a stronger relationship between authors than a high degree one.
+\citet{li2005weighted} considers a saturating effect where the increase in
+strength of a relationship between two authors slows down when more articles
+are added, as they already know each other well after writing some papers
+together.
+
+In order to avoid loss of information through projection (weighted or
+unweighted), several features and methods have been proposed for bipartite
+networks, most of them borrowed from social networks.
+\citet{borgatti1997network} studies visualization techniques of bipartite
+networks and defines several properties for these type of networks like density
+and centrality. \citet{latapy2008basic} uses several statistics to analyze
+two-mode data and proposes new bipartite properties like clustering coefficient
+and redundancy coefficient. \citet{lind2005cycles} and
+\citet{zhang2008clustering} redefine the clustering coefficient for bipartite
+networks by considering squares (4-cycles) instead of triangles, which are not
+possible in a two-mode configuration. \citet{opsahl2011triadic} proposes a new
+measure of clustering based on the notion of triadic closure defined between
+three nodes of the same type. Several community detection methods have been
+proposed for bipartite networks \citep{fortunato2010community}. However most of
+these methods are not optimized for large networks on the scale seen in web or
+e-commerce environment. Therefore when detecting communities in bipartite
+networks a widely used approach is to project them on one of the node sets and
+apply scalable community detection methods from social networks on the
+projection.
+
+The research work mentioned above focused either on specific networks like
+collaboration network or generally on bipartite networks. They didn't consider
+user-object networks as a particular class of bipartite networks. On the other
+side, especially in a web or online environment user-object networks with their
+particularities are becoming increasingly popular in modeling the interaction
+between users (e.g. customers, listeners, watchers etc) and the online system
+(e.g. e-commerce, music, video etc). \citet{huang2007analyzing} is analyzing the
+bipartite consumer-product graphs representing sales transactions in an
+e-commerce setting. They found a larger than expected average path length and
+tendency of customers to cluster according to their purchases. A new
+recommendation algorithm is proposed based on these findings.
+\citet{grujic2009mixing} uses a bipartite representation of interactions between
+users and web databases to study patterns of clustering based on users common
+interests. They found a power law degree distribution of objects and a
+disassortative mixing pattern with high degree (active) users interacting mostly
+with low degree (unpopular) objects and low degree (inactive) users interacting
+mostly with high degree objects (popular). The authors applied a spectral
+clustering method on the weighted projected network and found communities
+relevant to subjects of common interests.
+
+Recently, \citet{shang10empirical} did an empirical analysis of two web-based
+user-object networks collected from two large-scale web sites and found the same
+power law degree distribution for objects and disassortative mixing pattern. A
+new property is proposed called collaborative similarity capturing the diversity
+of tastes based on the collaborative selection. For the lower-degree objects the
+authors found a negative correlation between object collaborative similarity
+(how similar are the users interacting with a specific object) and the object
+degree. Therefore unpopular (low degree) objects are considered a good indicator
+for the users common interests, while popular objects are less relevant.
+Starting from this observation we propose a new weighting scheme for user-object
+bipartite networks that will increase the relevance of unpopular object in the
+network and decrease the importance of popular ones.

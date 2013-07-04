@@ -1,0 +1,41 @@
+%!TEX root = bipartite.tex
+
+\section{Conclusion}
+
+We analyzed the bipartite representation of interactions between users and
+objects in web or e-commerce systems and shown that due to their scale such
+user-object networks have certain characteristics and challenges differentiating
+them from other bipartite networks such as collaboration or actor-movie
+networks. We analyzed the structural properties of five real world user-object
+networks and found a heavy tail degree distribution for objects. This
+heterogeneity is responsible for hyperinflation of edges in the projected users
+network resulting in very high density and diluted community structure in these
+projections. Also, popular objects are connecting together a large number of
+users, but they contain little or high level information about users interests.
+
+In order to diminish the impact of higher degree objects we are proposing a new
+weighting scheme based on the popular \emph{tf-idf} method used in information
+retrieval and text mining. With \emph{tf-idf} the weight of interactions between
+users and unpopular objects is amplified while popular objects will bring a
+lower contribution to the weight of an edge. Filtering can be applied to keep
+only the relevant edges with higher \emph{tf-idf} weights, starting from a
+specific threshold. We used the proposed approach with five real world user-object
+networks and demonstrate a decrease in density of both original and projected
+networks.  We apply the Louvain method \citep{blondel2008fast} to find
+communities in the projected users network and calculate the modularity of each
+partition. We find that the quality of the community structure as measured by
+modularity is significantly improved when compared to the projections of the
+original networks. This improvement is also observed with similar partially
+random networks where edges are filtered out randomly.
+ 
+We proposed a simple and efficient method of assigning weights in a bipartite
+user-object network that will decrease the impact of popular objects and improve
+density and community structure. Current work can be extended to develop new
+network-based recommender systems. Data used by such systems has a natural
+bipartite structure where users are interacting with items in an online
+environment. Our approach can also be applied to current community detection
+methods for bipartite networks to improve both their scalability and the quality
+of results. Further on, due to their simplicity, \emph{tf-idf} weights can be
+easily adapted to suit temporal networks that evolve over time. These evolving
+weighs can be monitored and analyzed to detect trends and patterns in
+user-object event data.

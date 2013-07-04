@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{article} % For LaTeX2e
+\usepackage{times}
+\usepackage[pdftex]{graphicx}
+\usepackage{common}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{natbib}
+\usepackage{subfig}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\title{Using \emph{tf-idf} as a weighting scheme to quantify relevancy in
+user-object bipartite networks}
+
+\author{
+Sorin Alupoaie, P\'{a}draig Cunningham \\
+School of Computer Science \& Informatics\\
+University College Dublin\\
+\small{\texttt{sorin.alupoaie@ucdconnect.ie,padraig.cunningham@ucd.ie}} \\
+}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Bipartite user-object networks are becoming increasingly popular in representing
+user interaction data in a web or e-commerce environment. They have certain
+characteristics and challenges that differentiates them from other bipartite
+networks. This paper analyzes the properties of five real world user-object
+networks. In all cases we found a heavy tail object degree distribution with
+popular objects connecting together a large part of the users causing
+significant edge inflation in the projected users network. We propose a novel
+edge weighting strategy based on \emph{tf-idf} and show that the new scheme
+improves both the density and the quality of the community structure in the
+projections. The improvement is also noticed when comparing to partially random
+networks.
+\end{abstract}
+
+\input{intro}
+\input{related}
+\input{ubnetworks}
+\input{tfidf}
+\input{eval}
+\input{conclusion}
+
+\bibliography{sorin}
+\bibliographystyle{year}
+
+\end{document}
